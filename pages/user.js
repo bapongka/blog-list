@@ -12,8 +12,8 @@ export default function Detail() {
       </Head>
 
       {/* Navbar */}
-      <div className=" bg-primary">
-        <div className="container  mx-auto">
+      <div className="bg-primary">
+        <div className="container w-2/3 mx-auto">
           <Navbar />
         </div>
       </div>

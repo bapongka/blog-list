@@ -1,7 +1,5 @@
 import Head from "next/head";
 import PostList from "../components/PostList";
-import PostHead from "../components/PostHead";
-import PostPhoto from "../components/PostPhoto";
 import Navbar from "../components/Navbar";
 import DetailPost from "../components/DetailPost";
 
@@ -16,22 +14,19 @@ export default function Detail() {
 
       {/* Navbar */}
       <div className=" bg-primary">
-        <div className="container  mx-auto">
+        <div className="container w-2/3 mx-auto">
           <Navbar />
         </div>
       </div>
       {/* Navbar END */}
 
       {/* Main */}
-      <div className="flex p-10">
-        <div className="container flex-initial w-1/4  p-3 bg-secondary rounded-md">
+      <div className="flex p-10 container justify-center mx-auto">
+        <div className="p-3 w-1/5 bg-secondary rounded-md">
           <PostList />
         </div>
-        <div className="container flex-initial w-5/6 mx-5 p-3 bg-secondary rounded-md">
+        <div className="p-3 ml-3 w-3/5 bg-secondary rounded-md">
           <DetailPost />
-        </div>
-        <div className="container flex-initial w-1/4  p-3 bg-secondary rounded-md">
-          <PostPhoto />
         </div>
       </div>
       {/* Main END */}

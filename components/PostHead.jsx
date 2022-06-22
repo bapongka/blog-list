@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../styles/PostHead.module.css";
 import HPhoto1 from "../public/img/head/HPhoto1.jpg";
+import GPhoto1 from "../public/img/head/HPhoto2.jpg";
+import GPhoto2 from "../public/img/head/HPhoto3.jpg";
+import GPhoto3 from "../public/img/head/HPhoto4.jpg";
 
 const PostHead = () => {
   return (
@@ -10,8 +12,31 @@ const PostHead = () => {
         <h1 className="border-l-8 pl-3 border-button">HEADLINE NEWS</h1>
       </div>
 
+      <div className="flex">
+        <div className="bg-primary p-3 h-48 rounded-md flex-wrap">
+          <Image src={GPhoto1} className="rounded-md" alt="" />
+          <div className=" w-full text-white">
+            <p className="font-bold pb-1">BAHAYA MENGANGGUR!!</p>
+          </div>
+        </div>
+
+        <div className="bg-primary p-3 mx-2 h-48 rounded-md flex-wrap">
+          <Image src={GPhoto2} className="rounded-md" alt="" />
+          <div className=" w-full text-white">
+            <p className="font-bold pb-1">BAHAYA MENGANGGUR!!</p>
+          </div>
+        </div>
+
+        <div className="bg-primary p-3 h-48 rounded-md flex-wrap">
+          <Image src={GPhoto3} className="rounded-md" alt="" />
+          <div className=" w-full text-white">
+            <p className="font-bold pb-1">BAHAYA MENGANGGUR!!</p>
+          </div>
+        </div>
+      </div>
+
       {/* HEADLINE */}
-      <div className="bg-primary p-3 text-white rounded-md">
+      <div className="bg-primary p-3 mt-5  text-white rounded-md">
         <div className="flex p-1">
           <div className="container flex-initial w-2/3">
             <h1 className="text-base font-bold pb-2">Rara The Rain Shaman</h1>
@@ -32,35 +57,6 @@ const PostHead = () => {
         </div>
       </div>
       {/* HEADLINE END */}
-
-      <div className="flex pt-10">
-        <div className="bg-primary w-1/3 p-3 rounded-md flex ">
-          <div className={styles.img1}>
-            {/* <Image src={HPhoto3} className="rounded-md" alt="" /> */}
-            <div className=" w-full p-2 mt-48 bg-secondary rounded-b-md opacity-80">
-              <p className="py-2 font-semibold text-black">Setelah 2tahun akhirnya PRJ ada lagi!!</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-primary w-1/3 p-3 mx-4 rounded-md flex">
-          <div className={styles.img2}>
-            {/* <Image src={HPhoto3} className="rounded-md" alt="" /> */}
-            <div className=" w-full p-2 mt-48 bg-secondary rounded-b-md opacity-80">
-              <p className="py-2 font-semibold text-black">Ada apa dengan El Rumi dan Winson?!</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-primary w-1/3 p-3 rounded-md flex">
-          <div className={styles.img3}>
-            {/* <Image src={HPhoto3} className="rounded-md" alt="" /> */}
-            <div className=" w-full p-2 mt-48 bg-secondary rounded-b-md opacity-80">
-              <p className="py-2 font-semibold text-black">Elon Musk akan membeli Twitter?!</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

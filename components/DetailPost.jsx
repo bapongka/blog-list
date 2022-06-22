@@ -79,7 +79,7 @@ const DetailPost = ({ data }) => {
         <h1 className="border-l-8 pl-3 border-button">COMMENT</h1>
       </div>
       <div className="bg-primary p-3  rounded-md text-white">
-        {comments.slice(0, 5).map((comment, index) => {
+        {comments.slice(0, 6).map((comment, index) => {
           return (
             <div className="pb-5 " key={index}>
               <div className="flex items-center pb-3">

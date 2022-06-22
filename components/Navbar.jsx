@@ -27,7 +27,7 @@ const Navbar = () => {
             <li className="mr-8 font-normal hover:border-b border-button">
               <a href="#">Anime</a>
             </li>
-            <li className="mr-8 font-normal border border-yellow-600 rounded-full px-2 hover:bg-button hover:text-black">
+            <li className=" font-normal border border-yellow-600 rounded-full px-2 hover:bg-button hover:text-black">
               <a href="/user">User Pages</a>
             </li>
           </ul>

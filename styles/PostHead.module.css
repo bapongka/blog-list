@@ -1,5 +1,5 @@
 .img1 {
-  background: url(../public/img/head/Hphoto3.jpg);
+  background: url(../public/img/gallery/Gphoto2.jpg);
   border-radius: 6px;
   width: 100%;
   background-size: cover;
@@ -7,7 +7,7 @@
 }
 
 .img2 {
-  background: url(../public/img/head/Hphoto2.jpg);
+  background: url(../public/img/gallery/Gphoto3.jpg);
   border-radius: 6px;
   width: 100%;
   background-size: cover;
@@ -15,7 +15,7 @@
 }
 
 .img3 {
-  background: url(../public/img/head/Hphoto4.jpg);
+  background: url(../public/img/gallery/Gphoto4.jpg);
   border-radius: 6px;
   width: 100%;
   background-size: cover;

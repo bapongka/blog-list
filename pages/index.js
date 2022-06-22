@@ -15,22 +15,24 @@ export default function Home() {
 
       {/* Navbar */}
       <div className=" bg-primary">
-        <div className="container  mx-auto">
+        <div className="container w-2/3 mx-auto">
           <Navbar />
         </div>
       </div>
       {/* Navbar END */}
 
       {/* Main */}
-      <div className="flex p-10">
-        <div className="container flex-initial w-1/4  p-3 bg-secondary rounded-md">
+      <div className="flex p-10 container justify-center mx-auto">
+        <div className="p-3 w-1/5 bg-secondary rounded-md">
           <PostList />
         </div>
-        <div className="container flex-initial w-5/6 mx-5 p-3 bg-secondary rounded-md">
-          <PostHead />
-        </div>
-        <div className="container flex-initial w-1/4  p-3 bg-secondary rounded-md">
-          <PostPhoto />
+        <div className="ml-3 w-3/5 ">
+          <div className="p-3 bg-secondary rounded-md">
+            <PostHead />
+          </div>
+          <div className="p-3 mt-5 bg-secondary rounded-md">
+            <PostPhoto />
+          </div>
         </div>
       </div>
       {/* Main END */}
