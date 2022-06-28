@@ -89,6 +89,30 @@ const Userpage = () => {
           </div> */}
         </div>
       </div>
+      {/* <div className="table w-full p-3 bg-primary rounded-lg text-white">
+        <div className="table-header-group">
+          <div className="table-row bg-button rounded-lg text-black">
+            <div className="table-cell">Full Name</div>
+            <div className="table-cell">Email</div>
+            <div className="table-cell">Gender</div>
+            <div className="table-cell">Status</div>
+          </div>
+        </div>
+        <div className="table-row-group">
+          <div className="table-row border-b border-button">
+            <div className="table-cell">ridho rakhaman</div>
+            <div className="table-cell">ridhouyee69@gmail.com</div>
+            <div className="table-cell">male</div>
+            <div className="table-cell">bujank</div>
+          </div>
+          <div className="table-row">
+            <div className="table-cell">ridho rakhaman</div>
+            <div className="table-cell">ridhouyee69@gmail.com</div>
+            <div className="table-cell">male</div>
+            <div className="table-cell">bujank</div>
+          </div>
+        </div>
+      </div> */}
       {/* HEADLINE END */}
     </div>
   );

@@ -2,6 +2,7 @@ import Head from "next/head";
 import PostList from "../components/PostList";
 import Navbar from "../components/Navbar";
 import DetailPost from "../components/DetailPost";
+import Footer from "../components/Footer";
 
 export default function Detail() {
   return (
@@ -13,7 +14,7 @@ export default function Detail() {
       </Head>
 
       {/* Navbar */}
-      <div className=" bg-primary">
+      <div className=" bg-primary fixed w-full top-0 z-10">
         <div className="container w-2/3 mx-auto">
           <Navbar />
         </div>
@@ -21,15 +22,21 @@ export default function Detail() {
       {/* Navbar END */}
 
       {/* Main */}
-      <div className="flex p-10 container justify-center mx-auto">
-        <div className="p-3 w-1/5 bg-secondary rounded-md">
+      <div className="flex p-10 mt-14 container justify-center mx-auto">
+        <div className="p-3 w-1/5 bg-secondary rounded-md shadow-2xl">
           <PostList />
         </div>
-        <div className="p-3 ml-3 w-3/5 bg-secondary rounded-md">
+        <div className="p-3 ml-5 w-3/5 bg-secondary rounded-md shadow-2xl">
           <DetailPost />
         </div>
       </div>
       {/* Main END */}
+
+      <div className=" bg-primary">
+        <div className="container w-2/3 mx-auto">
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

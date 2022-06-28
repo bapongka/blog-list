@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import UserPage from "../components/UserPage";
+import Footer from "../components/Footer";
 
 export default function Detail() {
   return (
@@ -12,7 +13,7 @@ export default function Detail() {
       </Head>
 
       {/* Navbar */}
-      <div className="bg-primary">
+      <div className="bg-primary fixed w-full top-0 z-10">
         <div className="container w-2/3 mx-auto">
           <Navbar />
         </div>
@@ -20,12 +21,18 @@ export default function Detail() {
       {/* Navbar END */}
 
       {/* Main */}
-      <div className="flex p-10 justify-center">
-        <div className="flex-initial p-3 bg-secondary rounded-md">
+      <div className="flex p-10 mt-14 justify-center">
+        <div className="flex-initial p-3 bg-secondary rounded-md shadow-2xl">
           <UserPage />
         </div>
       </div>
       {/* Main END */}
+
+      <div className=" bg-primary">
+        <div className="container w-2/3 mx-auto">
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

@@ -5,7 +5,9 @@ const Navbar = () => {
     <div className="container text-white p-3">
       <div className="flex items-center justify-between relative">
         <h1 className="font-bold text-lg">
-          <a href="/">FAST NEWS</a>
+          <a href="/">
+            FAST NEWS <sup>88</sup>
+          </a>
         </h1>
         <nav>
           <ul className="flex ">
