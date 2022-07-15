@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
 
       {/* Navbar */}
-      <div className=" bg-primary fixed w-full top-0 z-10">
-        <div className="container w-2/3 mx-auto">
+      <div className=" bg-primary fixed w-full top-0 z-10 shadow-xl">
+        <div className="container w-4/5 2xl:w-2/3 mx-auto">
           <Navbar />
         </div>
       </div>
@@ -24,7 +24,7 @@ export default function Home() {
 
       {/* Main */}
       <div className="flex p-10 mt-14 container justify-center mx-auto">
-        <div className="p-3 w-1/5 bg-secondary rounded-md shadow-2xl">
+        <div className="p-3 w-60 2xl:w-1/5 bg-secondary rounded-md shadow-2xl">
           <PostList />
         </div>
         <div className="ml-5 w-3/5 ">

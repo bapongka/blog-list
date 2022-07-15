@@ -10,26 +10,29 @@ const Navbar = () => {
           </a>
         </h1>
         <nav>
-          <ul className="flex ">
-            <li className="mr-8 font-normal hover:border-b border-button">
+          <ul className="flex">
+            <li className="mr-4 2xl:mr-8 text-sm font-normal hover:border-b border-button">
               <a href="#">Dunia</a>
             </li>
-            <li className="mr-8 font-normal hover:border-b border-button">
+            <li className="mr-4 2xl:mr-8 text-sm font-normal hover:border-b border-button">
               <a href="#">Nasional</a>
             </li>
-            <li className="mr-8 font-normal hover:border-b border-button">
+            <li className="mr-4 2xl:mr-8 text-sm font-normal hover:border-b border-button">
+              <a href="#">Teknologi</a>
+            </li>
+
+            {/* <ul className="flex"> */}
+            <li className="mr-4 2xl:mr-8 text-sm font-normal hover:border-b border-button">
               <a href="#">Olahraga</a>
             </li>
-            <li className="mr-8 font-normal hover:border-b border-button">
+            <li className="mr-4 2xl:mr-8 text-sm font-normal hover:border-b border-button">
               <a href="#">Politik</a>
             </li>
-            <li className="mr-8 font-normal hover:border-b border-button">
+            <li className="mr-4 2xl:mr-8 text-sm font-normal hover:border-b border-button">
               <a href="#">Hiburan</a>
             </li>
-            <li className="mr-8 font-normal hover:border-b border-button">
-              <a href="#">Anime</a>
-            </li>
-            <li className=" font-normal border border-yellow-600 rounded-full px-2 hover:bg-button hover:text-black">
+            {/* </ul> */}
+            <li className="text-sm font-normal border border-yellow-600 rounded-full px-2 hover:bg-button hover:text-black transition duration-300">
               <a href="/user">User Pages</a>
             </li>
           </ul>

@@ -8,6 +8,9 @@ module.exports = {
         secondary: "#f8fafc",
         button: "#facc15",
       },
+      screens: {
+        xm: "1240px",
+      },
     },
   },
   plugins: [],

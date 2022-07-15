@@ -14,7 +14,7 @@ export default function Detail() {
 
       {/* Navbar */}
       <div className="bg-primary fixed w-full top-0 z-10">
-        <div className="container w-2/3 mx-auto">
+        <div className="container w-4/5 2xl:w-2/3 mx-auto">
           <Navbar />
         </div>
       </div>
