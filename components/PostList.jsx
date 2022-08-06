@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-// import Link from "next/link";
+import Link from "next/link";
 
 const PostList = () => {
   const [posts, setPost] = useState([]);
@@ -29,9 +29,9 @@ const PostList = () => {
           <div className="bg-primary p-3 mb-2 rounded-md text-white" key={index}>
             <h1 className="text-base font-bold pb-2">{post.title}</h1>
             {/* <Link href={`/detail/${post.id}`}> */}
-            <a href="/detail" className="border-b border-button px-1 font-normal text-sm text-button">
-              Baca Selengkapnya
-            </a>
+            <Link href="/detail">
+              <a className="border-b border-button px-1 font-normal text-sm text-button">Baca Selengkapnya</a>
+            </Link>
             {/* </Link> */}
 
             <div className="flex items-center pt-3">

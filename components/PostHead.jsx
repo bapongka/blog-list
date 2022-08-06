@@ -14,21 +14,21 @@ const PostHead = () => {
 
       <div className="flex">
         <div className="bg-primary p-3 h-1/5 rounded-md flex-wrap">
-          <Image src={GPhoto1} className="rounded-md" alt="" />
+          <Image src={GPhoto1} className="rounded-md" alt="Gallery Photo" />
           <div className=" w-full text-white">
             <p className="font-bold text-sm">BAHAYA MENGANGGUR!!</p>
           </div>
         </div>
 
         <div className="bg-primary p-3 mx-2 h-1/5 rounded-md flex-wrap">
-          <Image src={GPhoto2} className="rounded-md" alt="" />
+          <Image src={GPhoto2} className="rounded-md" alt="Gallery Photo" />
           <div className=" w-full text-white">
             <p className="font-bold text-sm pb-1">BAHAYA MENGANGGUR!!</p>
           </div>
         </div>
 
         <div className="bg-primary p-3 h-1/5 rounded-md flex-wrap">
-          <Image src={GPhoto3} className="rounded-md" alt="" />
+          <Image src={GPhoto3} className="rounded-md" alt="Gallery Photo" />
           <div className=" w-full text-white">
             <p className="font-bold text-sm pb-1">BAHAYA MENGANGGUR!!</p>
           </div>
@@ -40,7 +40,7 @@ const PostHead = () => {
         <div className="flex p-1">
           <div className="container flex-initial w-1/2">
             <h1 className="text-base font-bold pb-2">Rara The Rain Shaman</h1>
-            <Image src={HPhoto1} className="rounded-md" />
+            <Image src={HPhoto1} className="rounded-md" alt="Head Photo" />
           </div>
           <div className="container flex-initial w-1/2 ml-5">
             <p className="pb-3 pt-7 text-justify">
