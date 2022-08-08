@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import HPhoto1 from "../public/img/head/HPhoto1.jpg";
-import GPhoto1 from "../public/img/head/HPhoto2.jpg";
-import GPhoto2 from "../public/img/head/HPhoto3.jpg";
-import GPhoto3 from "../public/img/head/HPhoto4.jpg";
+import HPhoto1 from "../public/img/head/Hphoto1.jpg";
+import GPhoto1 from "../public/img/head/Hphoto2.jpg";
+import GPhoto2 from "../public/img/head/Hphoto3.jpg";
+import GPhoto3 from "../public/img/head/Hphoto4.jpg";
 
 const PostHead = () => {
   return (
