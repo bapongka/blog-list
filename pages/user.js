@@ -28,7 +28,7 @@ export default function Detail() {
       </div>
       {/* Main END */}
 
-      <div className=" bg-primary">
+      <div className=" bg-primary fixed w-full bottom-0">
         <div className="container w-2/3 mx-auto">
           <Footer />
         </div>

@@ -38,7 +38,7 @@ export default function Home() {
       </div>
       {/* Main END */}
 
-      <div className=" bg-primary">
+      <div className=" bg-primary bottom-0">
         <div className="container w-2/3 mx-auto">
           <Footer />
         </div>
